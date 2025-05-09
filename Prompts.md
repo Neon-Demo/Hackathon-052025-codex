@@ -62,8 +62,12 @@ Save all files into a new folder called "3-DesignDocuments". Use this exact fold
 
 ## 4. Generate Implementation
 
+Choose one of the following implementation options based on your project requirements:
+
+### 4.1 Next.js Web Application
+
 ```
-With the information in my 1-SystemRequirements, 2-TechnicalDocuments, and 3-DesignDocuments folders, please help me generate a Next.js application. 
+With the information in my 1-SystemRequirements, 2-TechnicalDocuments, and 3-DesignDocuments folders, please help me generate a Next.js web application.
 
 Requirements:
 1. Follow the screen breakdown and technical architecture specified in the documentation
@@ -71,8 +75,44 @@ Requirements:
 3. Create a demo login option for testing purposes
 4. Use TypeScript for type safety
 5. Implement responsive design for mobile and desktop
+6. Use a modern component library like Material UI or Tailwind CSS
 
-Please create the application in a folder called "4-Implementation". Use this exact folder name to maintain proper sorting order.
+Please create the application in a folder called "4-Implementation/web-nextjs". Use this exact folder name to maintain proper sorting order.
+```
+
+### 4.2 React Native Mobile Application
+
+```
+With the information in my 1-SystemRequirements, 2-TechnicalDocuments, and 3-DesignDocuments folders, please help me generate a React Native mobile application.
+
+Requirements:
+1. Follow the screen breakdown and technical architecture specified in the documentation
+2. Implement Google and Microsoft SSO
+3. Create a demo login option for testing purposes
+4. Use TypeScript for type safety
+5. Support both iOS and Android platforms
+6. Implement offline-first data synchronization
+7. Use React Navigation for app navigation
+
+Please create the application in a folder called "4-Implementation/mobile-reactnative". Use this exact folder name to maintain proper sorting order.
+```
+
+### 4.3 Full-Stack Application (Next.js + Express + PostgreSQL)
+
+```
+With the information in my 1-SystemRequirements, 2-TechnicalDocuments, and 3-DesignDocuments folders, please help me generate a full-stack application with Next.js frontend, Express backend, and PostgreSQL database.
+
+Requirements:
+1. Follow the screen breakdown and technical architecture specified in the documentation
+2. Implement Google and Microsoft SSO
+3. Create a demo login option for testing purposes
+4. Use TypeScript for type safety throughout the stack
+5. Implement responsive design for mobile and desktop
+6. Set up a RESTful API with Express
+7. Include database migrations and seeding
+8. Implement proper error handling and logging
+
+Please create the application in a folder called "4-Implementation/fullstack". Use this exact folder name to maintain proper sorting order.
 ```
 
 ---
