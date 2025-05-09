@@ -1,0 +1,317 @@
+Greenhouse Management System meeting - Transcript
+
+00:00:00
+ 
+Alex Johnson: One sec. Make sure nothing
+Tom Wilson: Pull it
+Alex Johnson: gets
+Tom Wilson: up as well.
+Alex Johnson: translation.
+Mike Davis: Yes. So, I'll uh I'll just share this part here. Okay. So, yeah. Um Okay. So, we have this. So, just going through this. Uh I just kind of want to go through step by step. So the you know the proposal is one. So for the job scheduling and assigning that part
+Tom Wilson: That's something that
+Mike Davis: uh
+Tom Wilson: we would do like before it goes into that like that. uh we just schedule who's going to be going out onto the site and then um as we're like opening up the job folder and things like that, putting it onto our uh status support, that's when we would make or input the uh elements of the uh forms in the app to like autofill with like the job number and things like that. So,
+Mike Davis: And is that something um just so I understand is this I know you guys have this process with air table and uh you know Google calendars if if we build out the solution um is It is it best to do you guys want to streamline that process?
+ 
+ 
+00:01:30
+ 
+Mike Davis: I know we talked maybe a little bit about
+Tom Wilson: you
+Mike Davis: this
+Tom Wilson: know,
+Mike Davis: the
+Tom Wilson: we've
+Mike Davis: last
+Tom Wilson: tried
+Mike Davis: time
+Tom Wilson: to do that before
+Mike Davis: we
+Tom Wilson: with
+Mike Davis: talked
+Tom Wilson: Zapier and because everything is on the cloud. It just never works 100% of the time. It works like 75% of the time and then it just wastes time because we don't know which time it's working and which time it's not working. um like between all the different cloud-based services like so between box and air tableable and Google we tried with Zapier to make them to make the process automated and it's never
+Mike Davis: Sure.
+Tom Wilson: worked and I don't know if it's because like it misses itself when it's like transferring over or whatever. Um but um I think right now what we have in mind is we get a project number and then boom you go. So yeah, our our people can find it via project number um and so if they put in a project number then you would be able to see it or if there was an Excel table that had the project number and you know every like every evening we uploaded you know an Excel sheet of all the new projects that were open that day.
+ 
+ 
+00:02:43
+ 
+Tom Wilson: Then people would be able to go into this app and put in a project number and then they would see the files associated with that project number which would be blank files, right?
+Mike Davis: Okay. Uh so if but if if if we're building out you know basically a custom solution uh would having this all this process in a in a portal be best right so like you don't have to go to Excel like to to start the process everything is done from a from the
+Tom Wilson: Well, if
+Mike Davis: portal
+Tom Wilson: you
+Mike Davis: that
+Tom Wilson: could get
+Mike Davis: we
+Tom Wilson: it out
+Mike Davis: can
+Tom Wilson: of Air Table, then we wouldn't have to do anything. So, yes. So, it's all in Air
+Mike Davis: Okay.
+Tom Wilson: Table then for that. If that's what you're talking about, you could get it straight from Air Table on a daily basis. Really easy. What project was number was opened on which day and who's assigned to it? But
+Mike Davis: Okay.
+ 
+ 
+00:03:36
+ 
+Tom Wilson: yeah,
+Mike Davis: Would you prefer I guess maybe I'm not being clear. Would you prefer to like take Air Table out of the equation and do everything from one centralized location?
+Tom Wilson: Air Table works right now and we are not willing to
+Mike Davis: Okay.
+Tom Wilson: f with Air Table because we have
+Mike Davis: Okay.
+Tom Wilson: gone through so many we have gone through so many systems that just were horrible and effed with everything. So no, we do not want to move off of Air Table because Air Table
+Mike Davis: Okay.
+Tom Wilson: we can control. We don't have to ask anyone else to change it and it's user friendly. Yeah, it definitely helps throughout the life of the project. Let's like organize throughout. And right now you're only working on um on inspections and we do a thousand different types of jobs. Yeah.
+Mike Davis: Okay. Um All right.
+Alex Johnson: Then we
+Mike Davis: So
+Alex Johnson: would
+Mike Davis: that's
+Alex Johnson: use
+Mike Davis: good
+Alex Johnson: air
+Mike Davis: to
+ 
+ 
+00:04:26
+ 
+Alex Johnson: table as the data source then Mike I guess right and
+Mike Davis: Right.
+Alex Johnson: pull.
+Tom Wilson: Yes.
+Mike Davis: Yeah.
+Alex Johnson: Okay.
+Mike Davis: Okay. Uh good to know. And then uh this is done obviously um on
+Tom Wilson: Yeah.
+Mike Davis: location
+Tom Wilson: So this is how we do it now. This flowchart is how we do it now. So like prepares for jobs. So like this is where uh what do you have highlighted? That's where the inspector would be collecting their bulk forms, any equipment that they would need. Say if um we're doing a full hazmat, then it would be the grabbing the XRF gun. um getting our HMI inventory forms. Um and then just, you know, seeing like where where they're going, like uh punching in, how far away it is, things like that.
+Mike Davis: Okay. And then so when it says paperwork, is that
+Tom Wilson: Those
+Mike Davis: is
+Tom Wilson: are all
+Mike Davis: it
+Tom Wilson: the forms.
+Mike Davis: actual like it's just it's electronic, right?
+ 
+ 
+00:05:18
+ 
+Mike Davis: It's not, you know, they're not taking
+Tom Wilson: No, we do pen and paper. We're asking you to make
+Mike Davis: Okay.
+Tom Wilson: our paper forms electronic.
+Mike Davis: Yeah. Okay. Yeah. I just Okay. I just want to make sure. Um, yep. Okay, perfect. And then got that and feeds. Okay. Sorry, I'm just going through just making sure that I um understand the process. So then once it gets so here it can either go depending on what they find, right? It either goes full hazmat
+Tom Wilson: Well,
+Mike Davis: or
+Tom Wilson: that's
+Mike Davis: uh
+Tom Wilson: like
+Mike Davis: asbestous
+Tom Wilson: depending
+Mike Davis: only,
+Tom Wilson: on what
+Mike Davis: right?
+Tom Wilson: type of job it is. So, if it's a asbesus only because like just preparing for the job doesn't matter what it is. But, uh, for asbesus only, that's just the bulk form pretty much. And then the general service log full hazmat is when you get into your HMI and then the um XRF table or the lead.
+ 
+ 
+00:06:12
+ 
+Tom Wilson: So
+Mike Davis: Got
+Tom Wilson: did
+Mike Davis: you.
+Tom Wilson: you say which forms and which way? Yeah.
+Mike Davis: Yeah.
+Tom Wilson: So
+Mike Davis: So,
+Tom Wilson: then
+Mike Davis: it's Yeah. B forms and then Okay. And then these are the tables and the forms. Okay. And then um and so this part here
+Tom Wilson: that's once we send all those samples out. Uh there's a depending on what turnaround time we got to wait until we get the results back and then uh once we see and interpret the results then we give uh what we refer to as like variables but we just let the client know like hey either everything came back negative or these are the things that came back positive for speesus and then um we take that data and input it to write our reports.
+Mike Davis: Okay. Uh,
+Tom Wilson: And so
+Mike Davis: all right.
+Tom Wilson: what type of report is dependent on what job it is. So like uh the full hazmat report is the best one if uh you were going to use one um to model these forms after.
+ 
+ 
+00:07:22
+ 
+Tom Wilson: But I like right now say if it's a asbestous only survey that we did and everything came back negative then we can do the asbesus only non detect or if you know spot survey things like Yeah.
+Mike Davis: Okay, perfect. Okay. And reports written, approved, and sent. Okay. And then uh so the what's the what's I guess what's ideal here for this? Um how is it sent to the
+Tom Wilson: We get a PDF
+Mike Davis: how how do you
+Tom Wilson: version.
+Mike Davis: you okay so um and then it's manually the lab analyzes it okay related results client is formed to results okay and then the report is written okay I meant I didn't mean to go here and then I guess I wasn't
+Tom Wilson: That's
+Mike Davis: really
+Tom Wilson: just
+Mike Davis: sure
+Tom Wilson: the key.
+Mike Davis: about this this bottom part. Okay.
+Tom Wilson: That's the
+Mike Davis: Gotcha.
+Tom Wilson: key.
+Mike Davis: Okay.
+Tom Wilson: Yeah. I didn't make
+Mike Davis: Yep.
+Tom Wilson: like a full title,
+ 
+ 
+00:08:21
+ 
+Mike Davis: So the
+Tom Wilson: but
+Mike Davis: form
+Tom Wilson: like
+Mike Davis: associated.
+Tom Wilson: in the gray, that's like where we're at. In the orange, that's the forms associated. And then there are notes attached to what form.
+Mike Davis: Gotcha. Okay. All right.
+Tom Wilson: So everything in the orange are things that we would like in the app. Yeah, those are the forms. Sorry.
+Mike Davis: Okay. And
+Tom Wilson: Just
+Mike Davis: so
+Tom Wilson: Yeah,
+Mike Davis: we built those out. Okay. Um, yeah. So, I mean, this is is definitely I have no doubt that we we can build this this flow out for you and and and make it how you need it. Um my question is like ideally you know as far as the data collection goes you know I understand and we we can figure out how to you know set up those forms and collect that data and get that um the the part after the you know the data is collected and and you have it and you send it here is it ideally what what would these two steps B is it that um you know you
+ 
+ 
+00:09:35
+ 
+Tom Wilson: So
+Mike Davis: have
+Tom Wilson: ultimately it would be to get the information autopop populated into the reports. That was one of the things like u that uh Alex and I think back the other rep um he mentioned that once we get data back it would be able to fill out reports um and kind of at least start them off like rather than taking all the information from you know what came back positive and then we in a word document or an an excel document make a table of like this is the material the location, quantity, what percentage of asbesus it is, or if it came back not detected.
+Alex Johnson: Yes.
+Tom Wilson: And so that would be able to be autopop populated. It would just have to since we get a PDF version. It would might be difficult um to uh unless like there's an ability to scan, but I think also we we can answer a series of questions from your from the app that that put certain things into a report.
+Alex Johnson: correct.
+Tom Wilson: Right
+Alex Johnson: So
+ 
+ 
+00:10:48
+ 
+Tom Wilson: now those things are happening manually. Our our tech is answering questions manually. If this then this section goes in. If that then this section goes in. You got and then they're also manually typing out everything that they're handwriting into these forms. But all of that is in your app. So we want that to go into the report. I'm not concerned with the lab results going into the report as much as I'm concerned with our handwritten forms all of that information getting into a report. I mean, yes, obviously, we're going to look at it and make sure that it's okay, but it there's totally a way where this can be easily automated, and right now it's
+Mike Davis: Right.
+Tom Wilson: not. Right now, everything is handwritten in the field. Yeah. And then it has to be retyped, and then somebody has to go through the mental exercises a second time to put it into the report. So, when they're in the field, they could be answering all these questions. if this, then that, if this, then that, if this, then that, and then entering in all their findings and all the different types of materials and what the numbers were.
+ 
+ 
+00:11:48
+ 
+Tom Wilson: And then the report should should be 75% done. Then we
+Mike Davis: Yeah.
+Tom Wilson: get the results back from the client. And usually those don't even have to be retyped. Sometimes those can even just go as an appendix. And we we answer a question that says, "Were they hot or not? Which ones? What does that mean?" So like one paragraph could be written and the report's done. Because if everything that happened in the field could be automated to put into the report, all
+Alex Johnson: Yeah.
+Tom Wilson: we'd have to do is write like one paragraph
+Mike Davis: Yep.
+Alex Johnson: Yeah. Mike,
+Tom Wilson: of like
+Alex Johnson: so
+Tom Wilson: findings
+Alex Johnson: for
+Tom Wilson: and recommendations.
+Alex Johnson: Mike, for your benefit, I do have sample reports from GreenCo that they sent us quite a while ago when we first started this process um thinking maybe I forbuilder would solve the issue.
+Tom Wilson: Can you pause this
+Mike Davis: Mhm.
+Alex Johnson: So
+Tom Wilson: for
+Alex Johnson: I
+ 
+ 
+00:12:35
+ 
+Tom Wilson: me?
+Alex Johnson: can pass those to you um Mike. And then also, you know, basically we're just looking to replicate report customization that's in
+Mike Davis: Right.
+Alex Johnson: legacy formula into here into the customize app. Um,
+Mike Davis: Okay.
+Alex Johnson: so I'll send you those reports.
+Mike Davis: Yep. Okay. Yeah, that's this is all perfect. So, um I just wanted to make sure we were all on the same page. I mean, this is definitely something that um we can do with our with our code generation um and and build this custom solution for you. Um, so I don't have any I get I mean for me it was just making sure I understood the the flow which I which I do and and what you know and what was needed and where I form was kind of getting you most of the way there but not completely and how we can we can solve the rest of it. So,
+Tom Wilson: No, I set
+Mike Davis: uh,
+Tom Wilson: it up like all on one slide just uh I was thinking whether to do like Well, because they asked us they said like multiple
+ 
+ 
+00:13:39
+ 
+Mike Davis: yeah. Yeah,
+Tom Wilson: times
+Mike Davis: this
+Tom Wilson: they
+Mike Davis: is
+Tom Wilson: wanted
+Mike Davis: perfect.
+Tom Wilson: to know our whole process.
+Mike Davis: Yep.
+Tom Wilson: So,
+Mike Davis: Yeah, this is perfect. So, I Yeah, like I said, I just wanted to make sure uh, you know, I wasn't misinterpreting and then just those kind of follow-up questions about, you know, what happens afterwards. So, um, yeah, that's perfect. So, like I said, um you know, as far as our uh our AI team goes, like definitely feel confident and that we can build out this solution the way that you need to. Uh Alex, I don't know um if you know if you want to talk about next steps and what we do
+Alex Johnson: Yes. Um I'm
+Mike Davis: um
+Alex Johnson: actually
+Mike Davis: next, but
+Alex Johnson: I'm
+Mike Davis: yeah.
+Alex Johnson: forwarding you some a zip from Tom and a couple of PDFs from Emily. Um so I just did that. Um so you have those in your inbox.
+ 
+ 
+00:14:31
+ 
+Alex Johnson: Um yeah. So, thanks for the clarification. This helps. So, we're actually able to take something like the table that you built here, the flowchart, and actually transcripts from this conversation um and previous conversations, and plug them into Mike and his team's AI tool to actually start building this. The first process of that uh is a consulting arrangement where for a fee, we actually build this out in a wireframe way so that you can see what it's going to look like before it actually gets into the part where it's an actual piece of software. And so that way we can totally be on the same page that we've taken all that you've provided us, we've spun it into the AI engine to then um basically make a visual kind of detailed requirements type document um that we can show you. So once we get through that process, it
+Tom Wilson: Let's
+Alex Johnson: does a couple of things. One, what I just said, it makes a visual for you uh to know that we're all on the same page of how the software is going to look on our side.
+ 
+ 
+00:15:34
+ 
+Alex Johnson: What it also does is gives us the level of effort
+Tom Wilson: go.
+Alex Johnson: um as far as total build for the software itself and what that investment will be to you. Um so we feel like that's the most efficient way and most transparent way to make sure that what we're building for you is going to um going to align with your vision. Um so that would be the kind of the next step in the process. I can send you a quote. And once that's signed, we just go off and run and we start building the wireframes for you.
+Mike Davis: Yeah. And that's usually,
+Tom Wilson: It's
+Mike Davis: you know,
+Tom Wilson: coming.
+Mike Davis: probably about a 3 to four week process.
+Alex Johnson: Correct. Yeah.
+Mike Davis: And it'll be collaborative. So it won't be um, you know, we won't go away for four weeks and then come back and say, is this good? Right. So through that process, there'll be updates to make sure like as we're putting these screens together or these prototypes together that you guys are seeing them as as we're going along.
+ 
+ 
+00:16:32
+ 
+Mike Davis: Uh, we'll, you know, send them so that you guys can see it.
+Alex Johnson: Yeah.
+Mike Davis: Uh,
+Alex Johnson: So once
+Mike Davis: and then at
+Alex Johnson: Mike sends out um updates on on what's going on with the build process for the wireframing
+Tom Wilson: So, I thought the reason why, because you already told me about the initial fee last time, I thought the reason for Tom drawing this out was so that your team could tell us how much it would cost to make after the initial payment. And then if you could go over again how much it would cost for all of our staff to like actually use once it is built out. It's like I thought today we were going to find out how much it was going to cost beyond the initial investment.
+Alex Johnson: Yeah. So, let me revisit a couple things there. Uh, Sarah, one is this way of what we're building for you um is not a user model. So, you can have whatever users you want in this platform um in this custom build that we're making for you.
+ 
+ 
+00:17:29
+ 
+Alex Johnson: So, you don't have to
+Tom Wilson: So,
+Alex Johnson: worry
+Tom Wilson: how much does it cost then to use after you build it out?
+Alex Johnson: uh that like I said comes from the initial consulting fee to build it out for you in a wireframe way. Then we'll know at the end of that process um the total cost for the build.
+Tom Wilson: So once we build it, we could use it forever cuz it's ours.
+Alex Johnson: Yeah. So, uh good point. So uh it is yours and not only that the way we're building now with AI codegen, not only do we build it via AI codegen, but we also build into it a maintenance engine to it. So that way we're eliminating for you the notion of what's called technical debt. So three, four, five years down the road, you're not going to have to revisit a human coded on top of human coded mess of of a piece of software. It actually has a maintenance engine into it. So like uh iOS updates or you know other operating system updates that you're using that's all taken into account security updates that's all done via an AI engine.
+ 
+ 
+00:18:29
+ 
+Alex Johnson: And so yes your piece of software that you own will now uh be maintained over time.
+Tom Wilson: and there's no annual maintenance cost
+Alex Johnson: No
+Tom Wilson: to
+Alex Johnson: there
+Tom Wilson: you guys.
+Alex Johnson: yeah there is an annual
+Tom Wilson: That's what
+Alex Johnson: m
+Tom Wilson: I'm asking. How much will it cost after? So, we do the initial payment. Then you then you guys tell us how much it will cost and then how much does it use cost for us to use
+Alex Johnson: Right? That's all determined via the initial payment like uh so it will be based on basically how much software we have to build for you and thus how much uh it's going to cost us to host and things like that um and provide all that for you in the cloud. And then I'll be very transparent with what that fee is at the end of that process.
+Tom Wilson: Okay. Well, you can send us the paperwork then. That's fine.
+Alex Johnson: Okay, I appreciate that. Um, uh, any other questions are swimming around your head as far as that aspect of it?
+Tom Wilson: Were you looking something up? Uh, no. I was just looking at my notes from the last meeting we had. as far as further questions, I think we just we have to discuss generally like how we want to proceed this and then So if you send that will look it over and then we will be in touch. I thank you.
+Alex Johnson: Yeah, appreciate it. Let me know if any questions come up after we kick off this meeting and yeah I'll get that too soon as I can.
+Tom Wilson: Thank you. Okay, sounds good. Thank you.
+Alex Johnson: but,
+Mike Davis: Thank
