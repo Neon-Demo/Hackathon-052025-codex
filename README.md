@@ -71,6 +71,17 @@ This hackathon leverages Vibe Coding to help you prototype quickly. Vibe Coding 
 3. Helping troubleshoot issues
 4. Ensuring code quality and standards adherence
 
+### Sample Prompts
+
+We've included a `Prompts.md` file in this repository with ready-to-use prompts that you can copy and paste into Vibe Coding. These prompts will help you:
+
+- Generate business requirements
+- Create technical documentation
+- Design user interfaces
+- Implement your application
+
+Check out the `Prompts.md` file to get started with these pre-crafted prompts for different stages of your project development.
+
 ## Submission Guidelines
 
 1. Create your project implementation in your own folder
@@ -82,15 +93,17 @@ This hackathon leverages Vibe Coding to help you prototype quickly. Vibe Coding 
    - How Vibe Coding helped accelerate your development
    - Any challenges you faced and how you overcame them
 
-## Example Resources
+## Key Resources
 
-You can refer to the following example documents to understand how to structure your own project documentation:
+To help you get started, refer to these key resources:
 
-- Business Requirements: `/1-SystemRequirements/BusinessRequirements.md`
-- Technical Architecture: `/2-TechnicalDocuments/1-TechnicalArchitecture.md`
-- Screen Breakdown: `/2-TechnicalDocuments/2-ScreenBreakdown.md`
-- API Specification: `/2-TechnicalDocuments/3-APISpec.md`
+1. **Prompts.md**: Copy-and-paste prompts for different stages of your project development
+2. **Example Documentation**:
+   - Business Requirements: `/1-SystemRequirements/BusinessRequirements.md`
+   - Technical Architecture: `/2-TechnicalDocuments/1-TechnicalArchitecture.md`
+   - Screen Breakdown: `/2-TechnicalDocuments/2-ScreenBreakdown.md`
+   - API Specification: `/2-TechnicalDocuments/3-APISpec.md`
 
-Remember, these are provided as examples only - your project can have a completely different structure and focus.
+Remember, the example project is provided as a reference only - your project can have a completely different structure and focus.
 
 Good luck, and happy coding!
