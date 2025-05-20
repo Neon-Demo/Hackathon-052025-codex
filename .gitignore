@@ -1,1 +1,12 @@
 **/.claude/settings.local.json
+
+# Next.js specific
+4-Implementation/web-nextjs/.next/
+4-Implementation/web-nextjs/node_modules/
+4-Implementation/web-nextjs/package-lock.json
+4-Implementation/web-nextjs/.turbo
+4-Implementation/web-nextjs/coverage
+4-Implementation/web-nextjs/dist
+4-Implementation/web-nextjs/.env
+4-Implementation/web-nextjs/.vercel
+4-Implementation/web-nextjs/*.log
