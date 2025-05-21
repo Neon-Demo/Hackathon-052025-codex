@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { inspectionService, Inspection, InspectionListParams, ApiError } from "@/services";
+import { useMockApi } from "@/providers/mock-api-provider";
 
 interface UseInspectionsReturnType {
   inspections: Inspection[];
@@ -18,6 +19,10 @@ export function useInspections(initialParams?: InspectionListParams): UseInspect
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<ApiError | null>(null);
   const [params, setParams] = useState<InspectionListParams | undefined>(initialParams);
+  
+  // Use mock data for development/testing
+  const mockApi = useMockApi();
+  const useMock = process.env.NODE_ENV === 'development' || process.env.NEXT_PUBLIC_USE_MOCK_API === 'true';
 
   const fetchInspections = useCallback(async (newParams?: InspectionListParams) => {
     try {
@@ -29,15 +34,35 @@ export function useInspections(initialParams?: InspectionListParams): UseInspect
         setParams(newParams);
       }
       
-      const response = await inspectionService.getInspections(currentParams);
-      setInspections(response.data.inspections);
-      setTotal(response.data.total);
+      if (useMock) {
+        // Use mock data
+        mockApi.fetchInspections(currentParams?.projectId);
+        setInspections(mockApi.inspections);
+        setTotal(mockApi.inspections.length);
+        setLoading(mockApi.loading);
+      } else {
+        // Use actual API
+        const response = await inspectionService.getInspections(currentParams);
+        setInspections(response.data.inspections);
+        setTotal(response.data.total);
+      }
     } catch (err) {
       setError(err as ApiError);
     } finally {
-      setLoading(false);
+      if (!useMock) {
+        setLoading(false);
+      }
     }
-  }, [params]);
+  }, [params, mockApi, useMock]);
+
+  // Update local state when mock data changes
+  useEffect(() => {
+    if (useMock) {
+      setInspections(mockApi.inspections);
+      setTotal(mockApi.inspections.length);
+      setLoading(mockApi.loading);
+    }
+  }, [mockApi.inspections, mockApi.loading, useMock]);
 
   const refetch = useCallback(() => fetchInspections(), [fetchInspections]);
 
