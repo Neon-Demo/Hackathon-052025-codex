@@ -46,15 +46,13 @@ export default function ProjectInspections({ projectId }: ProjectInspectionsProp
   });
 
   const handleNewInspection = () => {
-    // This would navigate to a new inspection form in the future
     console.log("Create new inspection for project:", projectId);
-    // router.push(`/inspections/new?projectId=${projectId}`);
+    router.push(`/inspections/new?projectId=${projectId}`);
   };
 
   const handleViewInspection = (inspectionId: string) => {
-    // This would navigate to the inspection details in the future
     console.log("View inspection:", inspectionId);
-    // router.push(`/inspections/${inspectionId}`);
+    router.push(`/inspections/${inspectionId}`);
   };
 
   return (
