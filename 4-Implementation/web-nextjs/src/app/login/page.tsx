@@ -60,6 +60,15 @@ export default function LoginPage() {
     setIsLoading(true);
     signIn(provider, { callbackUrl });
   };
+  
+  const handleDemoSignIn = (email: string, password: string) => {
+    setIsLoading(true);
+    signIn("credentials", {
+      email,
+      password,
+      callbackUrl,
+    });
+  };
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 px-4 py-12 dark:bg-gray-900 sm:px-6 lg:px-8">
@@ -161,18 +170,36 @@ export default function LoginPage() {
 
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Demo credentials:
+              Demo logins:
             </p>
-            <div className="mt-1 space-y-1">
-              <p className="text-xs text-gray-500 dark:text-gray-500">
-                Admin: admin@example.com / admin123
-              </p>
-              <p className="text-xs text-gray-500 dark:text-gray-500">
-                Inspector: inspector@example.com / inspector123
-              </p>
-              <p className="text-xs text-gray-500 dark:text-gray-500">
-                Reviewer: reviewer@example.com / reviewer123
-              </p>
+            <div className="mt-3 grid grid-cols-3 gap-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => handleDemoSignIn("admin@example.com", "admin123")}
+                disabled={isLoading}
+              >
+                Admin
+              </Button>
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => handleDemoSignIn("inspector@example.com", "inspector123")}
+                disabled={isLoading}
+              >
+                Inspector
+              </Button>
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => handleDemoSignIn("reviewer@example.com", "reviewer123")}
+                disabled={isLoading}
+              >
+                Reviewer
+              </Button>
             </div>
           </div>
         </Card>
